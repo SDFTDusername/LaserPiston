@@ -1,0 +1,26 @@
+{
+    "parent": "laser_piston:models/blocks/laser_piston_down_body.json",
+    "textures": {
+        "front": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_down_side.png"
+        },
+        "right": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_down_side.png"
+        },
+        "back": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_down_side.png"
+        },
+        "left": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_down_side.png"
+        },
+        "top": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_down_top.png"
+        },
+        "bottom": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_body_front.png"
+        },
+        "head": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_head_side.png"
+        }
+    }
+}

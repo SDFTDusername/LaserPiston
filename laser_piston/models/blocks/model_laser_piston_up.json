@@ -1,0 +1,23 @@
+{
+    "parent": "laser_piston:models/blocks/fixed_multi_face_cube.json",
+    "textures": {
+        "front": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_up_side.png"
+        },
+        "right": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_up_side.png"
+        },
+        "back": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_up_side.png"
+        },
+        "left": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_up_side.png"
+        },
+        "top": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_front.png"
+        },
+        "bottom": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_up_bottom.png"
+        }
+    }
+}

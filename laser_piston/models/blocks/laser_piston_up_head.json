@@ -1,0 +1,82 @@
+{
+    "cuboids": [
+        {
+            "localBounds": [6, 0, 6, 10, 12, 10],
+            "faces": {
+                "localNegZ": {
+                    "uv": [4, 6, 16, 10],
+                    "uvRotation": 270,
+                    "ambientocclusion": true,
+                    "cullFace": false,
+                    "texture": "head"
+                },
+                "localPosX": {
+                    "uv": [4, 6, 16, 10],
+                    "uvRotation": 270,
+                    "ambientocclusion": true,
+                    "cullFace": false,
+                    "texture": "head"
+                },
+                "localPosZ": {
+                    "uv": [4, 6, 16, 10],
+                    "uvRotation": 270,
+                    "ambientocclusion": true,
+                    "cullFace": false,
+                    "texture": "head"
+                },
+                "localNegX": {
+                    "uv": [4, 6, 16, 10],
+                    "uvRotation": 270,
+                    "ambientocclusion": true,
+                    "cullFace": false,
+                    "texture": "head"
+                }
+            }
+        },
+        {
+            "localBounds": [0, 12, 0, 16, 16, 16],
+            "faces": {
+                "localNegZ": {
+                    "uv": [0, 0, 4, 16],
+                    "uvRotation": 270,
+                    "ambientocclusion": true,
+                    "cullFace": true,
+                    "texture": "side"
+                },
+                "localPosX": {
+                    "uv": [0, 0, 4, 16],
+                    "uvRotation": 270,
+                    "ambientocclusion": true,
+                    "cullFace": true,
+                    "texture": "side"
+                },
+                "localPosZ": {
+                    "uv": [0, 0, 4, 16],
+                    "uvRotation": 270,
+                    "ambientocclusion": true,
+                    "cullFace": false,
+                    "texture": "side"
+                },
+                "localNegX": {
+                    "uv": [0, 0, 4, 16],
+                    "uvRotation": 270,
+                    "ambientocclusion": true,
+                    "cullFace": true,
+                    "texture": "side"
+                },
+                "localPosY": {
+                    "uv": [0, 0, 16, 16],
+                    "ambientocclusion": true,
+                    "cullFace": true,
+                    "texture": "front"
+                },
+                "localNegY": {
+                    "uv": [0, 0, 16, 16],
+                    "ambientocclusion": true,
+                    "cullFace": true,
+                    "texture": "back"
+                }
+            }
+        }
+    ]
+}

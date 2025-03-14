@@ -1,0 +1,17 @@
+{
+    "recipes": [
+        {
+            "pattern": [
+                "P*"
+            ],
+            "inputs": {
+                "*": "base:laser_emitter[type=single,direction=NegZ]",
+                "P": "laser_piston:laser_piston[type=normal,direction=NegZ]"
+            },
+            "output": {
+                "item": "laser_piston:laser_piston[type=interacting,direction=NegZ]",
+                "amount": 1
+            }
+        }
+    ]
+}

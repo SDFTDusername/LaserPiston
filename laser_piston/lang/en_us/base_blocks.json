@@ -1,0 +1,6 @@
+{
+    "laser_piston:laser_piston": "Laser Piston",
+    "laser_piston:laser_piston::sticky": "Sticky Laser Piston",
+    "laser_piston:laser_piston::interacting": "Interacting Laser Piston",
+    "laser_piston:laser_piston::stickyInteracting": "Sticky Interacting Laser Piston"
+}

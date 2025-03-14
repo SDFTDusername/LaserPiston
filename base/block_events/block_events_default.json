@@ -1,0 +1,124 @@
+{
+    "stringId": "base:block_events_default",
+    "triggers": {
+        "onBreak": [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayPlayBreakSound"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:item_drop",
+                "if": {
+                    "srcPlayer": {
+                        "gamemode": {
+                            "allows_items_drop_on_break": true
+                        }
+                    }
+                },
+                "parameters": {
+                    "position": [0, 0, 0]
+                }
+            }
+        ],
+        "onPlace": [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayPlayPlaceSound"
+                }
+            }
+        ],
+        "relayPlayBreakSound": [
+            {
+                "actionId": "base:play_sound_2d",
+                "parameters": {
+                    "sound": "base:sounds/blocks/block-break.ogg",
+                    "volume": 1,
+                    "pitch": [0.9, 1.1],
+                    "pan": 0
+                }
+            }
+        ],
+        "relayPlayPlaceSound": [
+            {
+                "actionId": "base:play_sound_2d",
+                "parameters": {
+                    "sound": "base:sounds/blocks/block-place.ogg",
+                    "volume": 1,
+                    "pitch": [0.9, 1.1],
+                    "pan": 0
+                }
+            }
+        ],
+        "replaceNegZWithSelf": [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "blockStateId": "self"
+                }
+            }
+        ],
+        "replacePosXWithSelf": [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            }
+        ],
+        "replacePosZWithSelf": [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "blockStateId": "self"
+                }
+            }
+        ],
+        "replaceNegXWithSelf": [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            }
+        ],
+        "replacePosYWithSelf": [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            }
+        ],
+        "replaceNegYWithSelf": [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            }
+        ]
+    }
+}

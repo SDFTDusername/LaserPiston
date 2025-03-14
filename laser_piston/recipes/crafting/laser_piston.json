@@ -1,0 +1,21 @@
+{
+    "recipes": [
+        {
+            "pattern": [
+                "***",
+                "*GI",
+                "HHH"
+            ],
+            "inputs": {
+                "*": "base:ingot_aluminium",
+                "G": "base:ingot_gold",
+                "I": "base:metal_panel[default]",
+                "H": "base:hazard[default]"
+            },
+            "output": {
+                "item": "laser_piston:laser_piston[type=normal,direction=NegZ]",
+                "amount": 1
+            }
+        }
+    ]
+}

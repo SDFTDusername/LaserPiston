@@ -1,0 +1,17 @@
+{
+    "parent": "laser_piston:models/blocks/laser_piston_head.json",
+    "textures": {
+        "front": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_front.png"
+        },
+        "side": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_head_front_side.png"
+        },
+        "back": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_head_back.png"
+        },
+        "head": {
+            "fileName": "laser_piston:textures/blocks/laser_piston_head_side.png"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "recipes": [
+        {
+            "pattern": [
+                "P*"
+            ],
+            "inputs": {
+                "*": "base:laser_emitter[type=single,direction=NegZ]",
+                "P": "laser_piston:laser_piston[type=sticky,direction=NegZ]"
+            },
+            "output": {
+                "item": "laser_piston:laser_piston[type=stickyInteracting,direction=NegZ]",
+                "amount": 1
+            }
+        },
+        {
+            "pattern": [
+                " *",
+                "P*",
+                " *"
+            ],
+            "inputs": {
+                "*": "base:latex",
+                "P": "laser_piston:laser_piston[type=interacting,direction=NegZ]"
+            },
+            "output": {
+                "item": "laser_piston:laser_piston[type=stickyInteracting,direction=NegZ]",
+                "amount": 1
+            }
+        }
+    ]
+}

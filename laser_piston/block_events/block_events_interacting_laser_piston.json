@@ -1,0 +1,560 @@
+{
+    "parent": "laser_piston:block_events_laser_piston",
+    "stringId": "laser_piston:block_events_interacting_laser_piston",
+    "triggers": {
+        "pushIfPossible": [
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "or": [
+                        {
+                            "and": [
+                                {
+                                    "srcBlockState": {
+                                        "has_param": {
+                                            "param": "direction",
+                                            "value": "NegZ"
+                                        }
+                                    }
+                                },
+                                {
+                                    "block_at": {
+                                        "xOff": 0, "yOff": 0, "zOff": -2,
+                                        "has_block_id": "base:air"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "and": [
+                                {
+                                    "srcBlockState": {
+                                        "has_param": {
+                                            "param": "direction",
+                                            "value": "NegZ"
+                                        }
+                                    }
+                                },
+                                {
+                                    "block_at": {
+                                        "xOff": 0, "yOff": 0, "zOff": -1,
+                                        "has_block_id": "base:air"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "triggerId": "pushNegZ"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "or": [
+                        {
+                            "and": [
+                                {
+                                    "srcBlockState": {
+                                        "has_param": {
+                                            "param": "direction",
+                                            "value": "PosX"
+                                        }
+                                    }
+                                },
+                                {
+                                    "block_at": {
+                                        "xOff": 2, "yOff": 0, "zOff": 0,
+                                        "has_block_id": "base:air"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "and": [
+                                {
+                                    "srcBlockState": {
+                                        "has_param": {
+                                            "param": "direction",
+                                            "value": "PosX"
+                                        }
+                                    }
+                                },
+                                {
+                                    "block_at": {
+                                        "xOff": 1, "yOff": 0, "zOff": 0,
+                                        "has_block_id": "base:air"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "triggerId": "pushPosX"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "or": [
+                        {
+                            "and": [
+                                {
+                                    "srcBlockState": {
+                                        "has_param": {
+                                            "param": "direction",
+                                            "value": "PosZ"
+                                        }
+                                    }
+                                },
+                                {
+                                    "block_at": {
+                                        "xOff": 0, "yOff": 0, "zOff": 2,
+                                        "has_block_id": "base:air"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "and": [
+                                {
+                                    "srcBlockState": {
+                                        "has_param": {
+                                            "param": "direction",
+                                            "value": "PosZ"
+                                        }
+                                    }
+                                },
+                                {
+                                    "block_at": {
+                                        "xOff": 0, "yOff": 0, "zOff": 1,
+                                        "has_block_id": "base:air"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "triggerId": "pushPosZ"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "or": [
+                        {
+                            "and": [
+                                {
+                                    "srcBlockState": {
+                                        "has_param": {
+                                            "param": "direction",
+                                            "value": "NegX"
+                                        }
+                                    }
+                                },
+                                {
+                                    "block_at": {
+                                        "xOff": -2, "yOff": 0, "zOff": 0,
+                                        "has_block_id": "base:air"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "and": [
+                                {
+                                    "srcBlockState": {
+                                        "has_param": {
+                                            "param": "direction",
+                                            "value": "NegX"
+                                        }
+                                    }
+                                },
+                                {
+                                    "block_at": {
+                                        "xOff": -1, "yOff": 0, "zOff": 0,
+                                        "has_block_id": "base:air"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "triggerId": "pushNegX"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "or": [
+                        {
+                            "and": [
+                                {
+                                    "srcBlockState": {
+                                        "has_param": {
+                                            "param": "direction",
+                                            "value": "PosY"
+                                        }
+                                    }
+                                },
+                                {
+                                    "block_at": {
+                                        "xOff": 0, "yOff": 2, "zOff": 0,
+                                        "has_block_id": "base:air"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "and": [
+                                {
+                                    "srcBlockState": {
+                                        "has_param": {
+                                            "param": "direction",
+                                            "value": "PosY"
+                                        }
+                                    }
+                                },
+                                {
+                                    "block_at": {
+                                        "xOff": 0, "yOff": 1, "zOff": 0,
+                                        "has_block_id": "base:air"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "triggerId": "pushPosY"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "or": [
+                        {
+                            "and": [
+                                {
+                                    "srcBlockState": {
+                                        "has_param": {
+                                            "param": "direction",
+                                            "value": "NegY"
+                                        }
+                                    }
+                                },
+                                {
+                                    "block_at": {
+                                        "xOff": 0, "yOff": -2, "zOff": 0,
+                                        "has_block_id": "base:air"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "and": [
+                                {
+                                    "srcBlockState": {
+                                        "has_param": {
+                                            "param": "direction",
+                                            "value": "NegY"
+                                        }
+                                    }
+                                },
+                                {
+                                    "block_at": {
+                                        "xOff": 0, "yOff": -1, "zOff": 0,
+                                        "has_block_id": "base:air"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "triggerId": "pushNegY"
+                }
+            }
+        ],
+        "pushNegZ": [
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "block_at": {
+                        "xOff": 0, "yOff": 0, "zOff": -2,
+                        "has_block_id": "base:air"
+                    }
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "triggerId": "replaceNegZWithSelf"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "blockStateId": "laser_piston:laser_piston[type=interactingHead,direction=NegZ]"
+                }
+            },
+            {
+                "actionId": "base:set_block_state_params",
+                "parameters": {
+                    "params": {
+                        "type": "interactingBody"
+                    }
+                }
+            },
+            {
+                "actionId": "base:play_sound_3d",
+                "parameters": {
+                    "sound": "laser_piston:sounds/blocks/laser-piston.ogg",
+                    "volume": 1,
+                    "pitch": [1.4, 1.6],
+                    "position": [0, 0, 0]
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": -2,
+                    "triggerId": "onInteract"
+                }
+            }
+        ],
+        "pushPosX": [
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "block_at": {
+                        "xOff": 2, "yOff": 0, "zOff": 0,
+                        "has_block_id": "base:air"
+                    }
+                },
+                "parameters": {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "triggerId": "replacePosXWithSelf"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "blockStateId": "laser_piston:laser_piston[type=interactingHead,direction=PosX]"
+                }
+            },
+            {
+                "actionId": "base:set_block_state_params",
+                "parameters": {
+                    "params": {
+                        "type": "interactingBody"
+                    }
+                }
+            },
+            {
+                "actionId": "base:play_sound_3d",
+                "parameters": {
+                    "sound": "laser_piston:sounds/blocks/laser-piston.ogg",
+                    "volume": 1,
+                    "pitch": [1.4, 1.6],
+                    "position": [0, 0, 0]
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "xOff": 2, "yOff": 0, "zOff": 0,
+                    "triggerId": "onInteract"
+                }
+            }
+        ],
+        "pushPosZ": [
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "block_at": {
+                        "xOff": 0, "yOff": 0, "zOff": 2,
+                        "has_block_id": "base:air"
+                    }
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "triggerId": "replacePosZWithSelf"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "blockStateId": "laser_piston:laser_piston[type=interactingHead,direction=PosZ]"
+                }
+            },
+            {
+                "actionId": "base:set_block_state_params",
+                "parameters": {
+                    "params": {
+                        "type": "interactingBody"
+                    }
+                }
+            },
+            {
+                "actionId": "base:play_sound_3d",
+                "parameters": {
+                    "sound": "laser_piston:sounds/blocks/laser-piston.ogg",
+                    "volume": 1,
+                    "pitch": [1.4, 1.6],
+                    "position": [0, 0, 0]
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": 2,
+                    "triggerId": "onInteract"
+                }
+            }
+        ],
+        "pushNegX": [
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "block_at": {
+                        "xOff": -2, "yOff": 0, "zOff": 0,
+                        "has_block_id": "base:air"
+                    }
+                },
+                "parameters": {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "triggerId": "replaceNegXWithSelf"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "blockStateId": "laser_piston:laser_piston[type=interactingHead,direction=NegX]"
+                }
+            },
+            {
+                "actionId": "base:set_block_state_params",
+                "parameters": {
+                    "params": {
+                        "type": "interactingBody"
+                    }
+                }
+            },
+            {
+                "actionId": "base:play_sound_3d",
+                "parameters": {
+                    "sound": "laser_piston:sounds/blocks/laser-piston.ogg",
+                    "volume": 1,
+                    "pitch": [1.4, 1.6],
+                    "position": [0, 0, 0]
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "xOff": -2, "yOff": 0, "zOff": 0,
+                    "triggerId": "onInteract"
+                }
+            }
+        ],
+        "pushPosY": [
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "block_at": {
+                        "xOff": 0, "yOff": 2, "zOff": 0,
+                        "has_block_id": "base:air"
+                    }
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "replacePosYWithSelf"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "blockStateId": "laser_piston:laser_piston[type=interactingHead,direction=PosY]"
+                }
+            },
+            {
+                "actionId": "base:set_block_state_params",
+                "parameters": {
+                    "params": {
+                        "type": "interactingBody"
+                    }
+                }
+            },
+            {
+                "actionId": "base:play_sound_3d",
+                "parameters": {
+                    "sound": "laser_piston:sounds/blocks/laser-piston.ogg",
+                    "volume": 1,
+                    "pitch": [1.4, 1.6],
+                    "position": [0, 0, 0]
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "xOff": 0, "yOff": 2, "zOff": 0,
+                    "triggerId": "onInteract"
+                }
+            }
+        ],
+        "pushNegY": [
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "block_at": {
+                        "xOff": 0, "yOff": -2, "zOff": 0,
+                        "has_block_id": "base:air"
+                    }
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "triggerId": "replaceNegYWithSelf"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "blockStateId": "laser_piston:laser_piston[type=interactingHead,direction=NegY]"
+                }
+            },
+            {
+                "actionId": "base:set_block_state_params",
+                "parameters": {
+                    "params": {
+                        "type": "interactingBody"
+                    }
+                }
+            },
+            {
+                "actionId": "base:play_sound_3d",
+                "parameters": {
+                    "sound": "laser_piston:sounds/blocks/laser-piston.ogg",
+                    "volume": 1,
+                    "pitch": [1.4, 1.6],
+                    "position": [0, 0, 0]
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "xOff": 0, "yOff": -2, "zOff": 0,
+                    "triggerId": "onInteract"
+                }
+            }
+        ]
+    }
+}

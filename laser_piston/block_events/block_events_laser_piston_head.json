@@ -1,0 +1,336 @@
+{
+    "parent": "base:block_events_default",
+    "stringId": "laser_piston:block_events_laser_piston_head",
+    "triggers": {
+        "onInteract": [
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "and": [
+                        {
+                            "srcBlockState": {
+                                "has_param": {
+                                    "param": "direction",
+                                    "value": "NegZ"
+                                }
+                            }
+                        },
+                        {
+                            "block_at": {
+                                "xOff": 0, "yOff": 0, "zOff": 1,
+                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=NegZ]"
+                            }
+                        }
+                    ]
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "triggerId": "onInteract"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "and": [
+                        {
+                            "srcBlockState": {
+                                "has_param": {
+                                    "param": "direction",
+                                    "value": "PosX"
+                                }
+                            }
+                        },
+                        {
+                            "block_at": {
+                                "xOff": -1, "yOff": 0, "zOff": 0,
+                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=PosX]"
+                            }
+                        }
+                    ]
+                },
+                "parameters": {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "triggerId": "onInteract"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "and": [
+                        {
+                            "srcBlockState": {
+                                "has_param": {
+                                    "param": "direction",
+                                    "value": "PosZ"
+                                }
+                            }
+                        },
+                        {
+                            "block_at": {
+                                "xOff": 0, "yOff": 0, "zOff": -1,
+                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=PosZ]"
+                            }
+                        }
+                    ]
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "triggerId": "onInteract"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "and": [
+                        {
+                            "srcBlockState": {
+                                "has_param": {
+                                    "param": "direction",
+                                    "value": "NegX"
+                                }
+                            }
+                        },
+                        {
+                            "block_at": {
+                                "xOff": 1, "yOff": 0, "zOff": 0,
+                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=NegX]"
+                            }
+                        }
+                    ]
+                },
+                "parameters": {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "triggerId": "onInteract"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "and": [
+                        {
+                            "srcBlockState": {
+                                "has_param": {
+                                    "param": "direction",
+                                    "value": "PosY"
+                                }
+                            }
+                        },
+                        {
+                            "block_at": {
+                                "xOff": 0, "yOff": -1, "zOff": 0,
+                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=PosY]"
+                            }
+                        }
+                    ]
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "triggerId": "onInteract"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "and": [
+                        {
+                            "srcBlockState": {
+                                "has_param": {
+                                    "param": "direction",
+                                    "value": "NegY"
+                                }
+                            }
+                        },
+                        {
+                            "block_at": {
+                                "xOff": 0, "yOff": 1, "zOff": 0,
+                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=NegY]"
+                            }
+                        }
+                    ]
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "onInteract"
+                }
+            }
+        ],
+        "onBreak": [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayPlayBreakSound"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "if": {
+                    "and": [
+                        {
+                            "srcBlockState": {
+                                "has_param": {
+                                    "param": "direction",
+                                    "value": "NegZ"
+                                }
+                            }
+                        },
+                        {
+                            "block_at": {
+                                "xOff": 0, "yOff": 0, "zOff": 1,
+                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=NegZ]"
+                            }
+                        }
+                    ]
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "if": {
+                    "and": [
+                        {
+                            "srcBlockState": {
+                                "has_param": {
+                                    "param": "direction",
+                                    "value": "PosX"
+                                }
+                            }
+                        },
+                        {
+                            "block_at": {
+                                "xOff": -1, "yOff": 0, "zOff": 0,
+                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=PosX]"
+                            }
+                        }
+                    ]
+                },
+                "parameters": {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "if": {
+                    "and": [
+                        {
+                            "srcBlockState": {
+                                "has_param": {
+                                    "param": "direction",
+                                    "value": "PosZ"
+                                }
+                            }
+                        },
+                        {
+                            "block_at": {
+                                "xOff": 0, "yOff": 0, "zOff": -1,
+                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=PosZ]"
+                            }
+                        }
+                    ]
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "if": {
+                    "and": [
+                        {
+                            "srcBlockState": {
+                                "has_param": {
+                                    "param": "direction",
+                                    "value": "NegX"
+                                }
+                            }
+                        },
+                        {
+                            "block_at": {
+                                "xOff": 1, "yOff": 0, "zOff": 0,
+                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=NegX]"
+                            }
+                        }
+                    ]
+                },
+                "parameters": {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "if": {
+                    "and": [
+                        {
+                            "srcBlockState": {
+                                "has_param": {
+                                    "param": "direction",
+                                    "value": "PosY"
+                                }
+                            }
+                        },
+                        {
+                            "block_at": {
+                                "xOff": 0, "yOff": -1, "zOff": 0,
+                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=PosY]"
+                            }
+                        }
+                    ]
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "if": {
+                    "and": [
+                        {
+                            "srcBlockState": {
+                                "has_param": {
+                                    "param": "direction",
+                                    "value": "NegY"
+                                }
+                            }
+                        },
+                        {
+                            "block_at": {
+                                "xOff": 0, "yOff": 1, "zOff": 0,
+                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=NegY]"
+                            }
+                        }
+                    ]
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:item_drop",
+                "if": {
+                    "srcPlayer": {
+                        "gamemode": {
+                            "allows_items_drop_on_break": true
+                        }
+                    }
+                },
+                "parameters": {
+                    "position": [0, 0, 0]
+                }
+            }
+        ]
+    }
+}
