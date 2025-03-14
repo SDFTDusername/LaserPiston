@@ -322,7 +322,7 @@
                 "actionId": "base:run_trigger",
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": -2,
-                    "triggerId": "onInteract"
+                    "triggerId": "onLaserHit"
                 }
             }
         ],
@@ -368,7 +368,7 @@
                 "actionId": "base:run_trigger",
                 "parameters": {
                     "xOff": 2, "yOff": 0, "zOff": 0,
-                    "triggerId": "onInteract"
+                    "triggerId": "onLaserHit"
                 }
             }
         ],
@@ -414,7 +414,7 @@
                 "actionId": "base:run_trigger",
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": 2,
-                    "triggerId": "onInteract"
+                    "triggerId": "onLaserHit"
                 }
             }
         ],
@@ -460,7 +460,7 @@
                 "actionId": "base:run_trigger",
                 "parameters": {
                     "xOff": -2, "yOff": 0, "zOff": 0,
-                    "triggerId": "onInteract"
+                    "triggerId": "onLaserHit"
                 }
             }
         ],
@@ -506,7 +506,7 @@
                 "actionId": "base:run_trigger",
                 "parameters": {
                     "xOff": 0, "yOff": 2, "zOff": 0,
-                    "triggerId": "onInteract"
+                    "triggerId": "onLaserHit"
                 }
             }
         ],
@@ -552,7 +552,7 @@
                 "actionId": "base:run_trigger",
                 "parameters": {
                     "xOff": 0, "yOff": -2, "zOff": 0,
-                    "triggerId": "onInteract"
+                    "triggerId": "onLaserHit"
                 }
             }
         ]
