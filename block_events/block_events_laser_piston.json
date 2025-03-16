@@ -315,15 +315,36 @@
                 "actionId": "base:replace_block_state",
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": -1,
-                    "blockStateId": "laser_piston:laser_piston[type=normalHead,direction=NegZ]"
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:set_block_state_params",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "params": {
+                        "part": "head"
+                    }
                 }
             },
             {
                 "actionId": "base:set_block_state_params",
                 "parameters": {
                     "params": {
-                        "type": "normalBody"
+                        "part": "body"
                     }
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "srcBlockState": {
+                        "has_tag": "piston_interacting"
+                    }
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": -2,
+                    "triggerId": "onLaserHit"
                 }
             },
             {
@@ -355,15 +376,36 @@
                 "actionId": "base:replace_block_state",
                 "parameters": {
                     "xOff": 1, "yOff": 0, "zOff": 0,
-                    "blockStateId": "laser_piston:laser_piston[type=normalHead,direction=PosX]"
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:set_block_state_params",
+                "parameters": {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "params": {
+                        "part": "head"
+                    }
                 }
             },
             {
                 "actionId": "base:set_block_state_params",
                 "parameters": {
                     "params": {
-                        "type": "normalBody"
+                        "part": "body"
                     }
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "srcBlockState": {
+                        "has_tag": "piston_interacting"
+                    }
+                },
+                "parameters": {
+                    "xOff": 2, "yOff": 0, "zOff": 0,
+                    "triggerId": "onLaserHit"
                 }
             },
             {
@@ -395,15 +437,36 @@
                 "actionId": "base:replace_block_state",
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": 1,
-                    "blockStateId": "laser_piston:laser_piston[type=normalHead,direction=PosZ]"
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:set_block_state_params",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "params": {
+                        "part": "head"
+                    }
                 }
             },
             {
                 "actionId": "base:set_block_state_params",
                 "parameters": {
                     "params": {
-                        "type": "normalBody"
+                        "part": "body"
                     }
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "srcBlockState": {
+                        "has_tag": "piston_interacting"
+                    }
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": 2,
+                    "triggerId": "onLaserHit"
                 }
             },
             {
@@ -435,15 +498,36 @@
                 "actionId": "base:replace_block_state",
                 "parameters": {
                     "xOff": -1, "yOff": 0, "zOff": 0,
-                    "blockStateId": "laser_piston:laser_piston[type=normalHead,direction=NegX]"
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:set_block_state_params",
+                "parameters": {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "params": {
+                        "part": "head"
+                    }
                 }
             },
             {
                 "actionId": "base:set_block_state_params",
                 "parameters": {
                     "params": {
-                        "type": "normalBody"
+                        "part": "body"
                     }
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "srcBlockState": {
+                        "has_tag": "piston_interacting"
+                    }
+                },
+                "parameters": {
+                    "xOff": -2, "yOff": 0, "zOff": 0,
+                    "triggerId": "onLaserHit"
                 }
             },
             {
@@ -475,15 +559,36 @@
                 "actionId": "base:replace_block_state",
                 "parameters": {
                     "xOff": 0, "yOff": 1, "zOff": 0,
-                    "blockStateId": "laser_piston:laser_piston[type=normalHead,direction=PosY]"
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:set_block_state_params",
+                "parameters": {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "params": {
+                        "part": "head"
+                    }
                 }
             },
             {
                 "actionId": "base:set_block_state_params",
                 "parameters": {
                     "params": {
-                        "type": "normalBody"
+                        "part": "body"
                     }
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "srcBlockState": {
+                        "has_tag": "piston_interacting"
+                    }
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 2, "zOff": 0,
+                    "triggerId": "onLaserHit"
                 }
             },
             {
@@ -515,15 +620,36 @@
                 "actionId": "base:replace_block_state",
                 "parameters": {
                     "xOff": 0, "yOff": -1, "zOff": 0,
-                    "blockStateId": "laser_piston:laser_piston[type=normalHead,direction=NegY]"
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:set_block_state_params",
+                "parameters": {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "params": {
+                        "part": "head"
+                    }
                 }
             },
             {
                 "actionId": "base:set_block_state_params",
                 "parameters": {
                     "params": {
-                        "type": "normalBody"
+                        "part": "body"
                     }
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "srcBlockState": {
+                        "has_tag": "piston_interacting"
+                    }
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": -2, "zOff": 0,
+                    "triggerId": "onLaserHit"
                 }
             },
             {

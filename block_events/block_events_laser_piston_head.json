@@ -18,9 +18,18 @@
                         {
                             "block_at": {
                                 "xOff": 0, "yOff": 0, "zOff": 1,
-                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=NegZ]"
+                                "has_tag": "piston_body"
                             }
-                        }
+                        },
+						{
+							"block_at": {
+								"xOff": 0, "yOff": 0, "zOff": 1,
+								"has_param": {
+									"param": "direction",
+									"value": "NegZ"
+								}
+							}
+						}
                     ]
                 },
                 "parameters": {
@@ -28,7 +37,7 @@
                     "triggerId": "onInteract"
                 }
             },
-            {
+			{
                 "actionId": "base:run_trigger",
                 "if": {
                     "and": [
@@ -43,9 +52,18 @@
                         {
                             "block_at": {
                                 "xOff": -1, "yOff": 0, "zOff": 0,
-                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=PosX]"
+                                "has_tag": "piston_body"
                             }
-                        }
+                        },
+						{
+							"block_at": {
+								"xOff": -1, "yOff": 0, "zOff": 0,
+								"has_param": {
+									"param": "direction",
+									"value": "PosX"
+								}
+							}
+						}
                     ]
                 },
                 "parameters": {
@@ -53,7 +71,7 @@
                     "triggerId": "onInteract"
                 }
             },
-            {
+			{
                 "actionId": "base:run_trigger",
                 "if": {
                     "and": [
@@ -68,9 +86,18 @@
                         {
                             "block_at": {
                                 "xOff": 0, "yOff": 0, "zOff": -1,
-                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=PosZ]"
+                                "has_tag": "piston_body"
                             }
-                        }
+                        },
+						{
+							"block_at": {
+								"xOff": 0, "yOff": 0, "zOff": -1,
+								"has_param": {
+									"param": "direction",
+									"value": "PosZ"
+								}
+							}
+						}
                     ]
                 },
                 "parameters": {
@@ -78,7 +105,7 @@
                     "triggerId": "onInteract"
                 }
             },
-            {
+			{
                 "actionId": "base:run_trigger",
                 "if": {
                     "and": [
@@ -93,9 +120,18 @@
                         {
                             "block_at": {
                                 "xOff": 1, "yOff": 0, "zOff": 0,
-                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=NegX]"
+                                "has_tag": "piston_body"
                             }
-                        }
+                        },
+						{
+							"block_at": {
+								"xOff": 1, "yOff": 0, "zOff": 0,
+								"has_param": {
+									"param": "direction",
+									"value": "NegX"
+								}
+							}
+						}
                     ]
                 },
                 "parameters": {
@@ -103,7 +139,7 @@
                     "triggerId": "onInteract"
                 }
             },
-            {
+			{
                 "actionId": "base:run_trigger",
                 "if": {
                     "and": [
@@ -118,9 +154,18 @@
                         {
                             "block_at": {
                                 "xOff": 0, "yOff": -1, "zOff": 0,
-                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=PosY]"
+                                "has_tag": "piston_body"
                             }
-                        }
+                        },
+						{
+							"block_at": {
+								"xOff": 0, "yOff": -1, "zOff": 0,
+								"has_param": {
+									"param": "direction",
+									"value": "PosY"
+								}
+							}
+						}
                     ]
                 },
                 "parameters": {
@@ -128,7 +173,7 @@
                     "triggerId": "onInteract"
                 }
             },
-            {
+			{
                 "actionId": "base:run_trigger",
                 "if": {
                     "and": [
@@ -143,9 +188,18 @@
                         {
                             "block_at": {
                                 "xOff": 0, "yOff": 1, "zOff": 0,
-                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=NegY]"
+                                "has_tag": "piston_body"
                             }
-                        }
+                        },
+						{
+							"block_at": {
+								"xOff": 0, "yOff": 1, "zOff": 0,
+								"has_param": {
+									"param": "direction",
+									"value": "NegY"
+								}
+							}
+						}
                     ]
                 },
                 "parameters": {
@@ -173,12 +227,21 @@
                                 }
                             }
                         },
-                        {
+						{
                             "block_at": {
                                 "xOff": 0, "yOff": 0, "zOff": 1,
-                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=NegZ]"
+                                "has_tag": "piston_body"
                             }
-                        }
+                        },
+						{
+							"block_at": {
+								"xOff": 0, "yOff": 0, "zOff": 1,
+								"has_param": {
+									"param": "direction",
+									"value": "NegZ"
+								}
+							}
+						}
                     ]
                 },
                 "parameters": {
@@ -198,12 +261,21 @@
                                 }
                             }
                         },
-                        {
+						{
                             "block_at": {
                                 "xOff": -1, "yOff": 0, "zOff": 0,
-                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=PosX]"
+                                "has_tag": "piston_body"
                             }
-                        }
+                        },
+						{
+							"block_at": {
+								"xOff": -1, "yOff": 0, "zOff": 0,
+								"has_param": {
+									"param": "direction",
+									"value": "PosX"
+								}
+							}
+						}
                     ]
                 },
                 "parameters": {
@@ -223,12 +295,21 @@
                                 }
                             }
                         },
-                        {
+						{
                             "block_at": {
                                 "xOff": 0, "yOff": 0, "zOff": -1,
-                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=PosZ]"
+                                "has_tag": "piston_body"
                             }
-                        }
+                        },
+						{
+							"block_at": {
+								"xOff": 0, "yOff": 0, "zOff": -1,
+								"has_param": {
+									"param": "direction",
+									"value": "PosZ"
+								}
+							}
+						}
                     ]
                 },
                 "parameters": {
@@ -248,12 +329,21 @@
                                 }
                             }
                         },
-                        {
+						{
                             "block_at": {
                                 "xOff": 1, "yOff": 0, "zOff": 0,
-                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=NegX]"
+                                "has_tag": "piston_body"
                             }
-                        }
+                        },
+						{
+							"block_at": {
+								"xOff": 1, "yOff": 0, "zOff": 0,
+								"has_param": {
+									"param": "direction",
+									"value": "NegX"
+								}
+							}
+						}
                     ]
                 },
                 "parameters": {
@@ -273,12 +363,21 @@
                                 }
                             }
                         },
-                        {
+						{
                             "block_at": {
                                 "xOff": 0, "yOff": -1, "zOff": 0,
-                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=PosY]"
+                                "has_tag": "piston_body"
                             }
-                        }
+                        },
+						{
+							"block_at": {
+								"xOff": 0, "yOff": -1, "zOff": 0,
+								"has_param": {
+									"param": "direction",
+									"value": "PosY"
+								}
+							}
+						}
                     ]
                 },
                 "parameters": {
@@ -298,12 +397,21 @@
                                 }
                             }
                         },
-                        {
+						{
                             "block_at": {
                                 "xOff": 0, "yOff": 1, "zOff": 0,
-                                "has_block_state_id": "laser_piston:laser_piston[type=normalBody,direction=NegY]"
+                                "has_tag": "piston_body"
                             }
-                        }
+                        },
+						{
+							"block_at": {
+								"xOff": 0, "yOff": 1, "zOff": 0,
+								"has_param": {
+									"param": "direction",
+									"value": "NegY"
+								}
+							}
+						}
                     ]
                 },
                 "parameters": {

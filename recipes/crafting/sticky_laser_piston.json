@@ -8,10 +8,10 @@
             ],
             "inputs": {
                 "*": "base:latex",
-                "P": "laser_piston:laser_piston[type=normal,direction=NegZ]"
+                "P": "laser_piston:laser_piston[type=normal,part=full,direction=NegZ]"
             },
             "output": {
-                "item": "laser_piston:laser_piston[type=sticky,direction=NegZ]",
+                "item": "laser_piston:laser_piston[type=sticky,part=full,direction=NegZ]",
                 "amount": 1
             }
         }
