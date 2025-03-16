@@ -3,6 +3,7 @@
     "defaultProperties": {
         "catalogHidden": true,
         "allowSwapping": false,
+        "stopsLasers": true,
 
         "placementRules": "omnidirectional_towards",
         "tags": [
@@ -223,7 +224,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_laser_piston_body",
+            "isOpaque": false
         },
         "type=normalBody,direction=PosX": {
             "dropParams": {
@@ -233,7 +235,8 @@
             "rotXZ": 90,
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_laser_piston_body",
+            "isOpaque": false
         },
         "type=normalBody,direction=PosZ": {
             "dropParams": {
@@ -243,7 +246,8 @@
             "rotXZ": 180,
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_laser_piston_body",
+            "isOpaque": false
         },
         "type=normalBody,direction=NegX": {
             "dropParams": {
@@ -253,7 +257,8 @@
             "rotXZ": 270,
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_laser_piston_body",
+            "isOpaque": false
         },
         "type=normalBody,direction=PosY": {
             "dropParams": {
@@ -262,7 +267,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_up_body.json",
-            "blockEventsId": "laser_piston:block_events_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_laser_piston_body",
+            "isOpaque": false
         },
         "type=normalBody,direction=NegY": {
             "dropParams": {
@@ -271,7 +277,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_down_body.json",
-            "blockEventsId": "laser_piston:block_events_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_laser_piston_body",
+            "isOpaque": false
         },
 
         "type=stickyBody,direction=NegZ": {
@@ -280,7 +287,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_body",
+            "isOpaque": false
         },
         "type=stickyBody,direction=PosX": {
             "dropParams": {
@@ -290,7 +298,8 @@
             "rotXZ": 90,
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_body",
+            "isOpaque": false
         },
         "type=stickyBody,direction=PosZ": {
             "dropParams": {
@@ -300,7 +309,8 @@
             "rotXZ": 180,
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_body",
+            "isOpaque": false
         },
         "type=stickyBody,direction=NegX": {
             "dropParams": {
@@ -310,7 +320,8 @@
             "rotXZ": 270,
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_body",
+            "isOpaque": false
         },
         "type=stickyBody,direction=PosY": {
             "dropParams": {
@@ -319,7 +330,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_up_body.json",
-            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_body",
+            "isOpaque": false
         },
         "type=stickyBody,direction=NegY": {
             "dropParams": {
@@ -328,7 +340,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_down_body.json",
-            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_body",
+            "isOpaque": false
         },
 
         "type=normalHead,direction=NegZ": {
@@ -337,7 +350,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_laser_piston_head",
+            "isOpaque": false
         },
         "type=normalHead,direction=PosX": {
             "dropParams": {
@@ -347,7 +361,8 @@
             "rotXZ": 90,
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_laser_piston_head",
+            "isOpaque": false
         },
         "type=normalHead,direction=PosZ": {
             "dropParams": {
@@ -357,7 +372,8 @@
             "rotXZ": 180,
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_laser_piston_head",
+            "isOpaque": false
         },
         "type=normalHead,direction=NegX": {
             "dropParams": {
@@ -367,7 +383,8 @@
             "rotXZ": 270,
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_laser_piston_head",
+            "isOpaque": false
         },
         "type=normalHead,direction=PosY": {
             "dropParams": {
@@ -376,7 +393,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_up_head.json",
-            "blockEventsId": "laser_piston:block_events_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_laser_piston_head",
+            "isOpaque": false
         },
         "type=normalHead,direction=NegY": {
             "dropParams": {
@@ -385,7 +403,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_down_head.json",
-            "blockEventsId": "laser_piston:block_events_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_laser_piston_head",
+            "isOpaque": false
         },
 
         "type=stickyHead,direction=NegZ": {
@@ -394,7 +413,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_head",
+            "isOpaque": false
         },
         "type=stickyHead,direction=PosX": {
             "dropParams": {
@@ -404,7 +424,8 @@
             "rotXZ": 90,
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_head",
+            "isOpaque": false
         },
         "type=stickyHead,direction=PosZ": {
             "dropParams": {
@@ -414,7 +435,8 @@
             "rotXZ": 180,
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_head",
+            "isOpaque": false
         },
         "type=stickyHead,direction=NegX": {
             "dropParams": {
@@ -424,7 +446,8 @@
             "rotXZ": 270,
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_head",
+            "isOpaque": false
         },
         "type=stickyHead,direction=PosY": {
             "dropParams": {
@@ -433,7 +456,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_up_head.json",
-            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_head",
+            "isOpaque": false
         },
         "type=stickyHead,direction=NegY": {
             "dropParams": {
@@ -442,7 +466,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_down_head.json",
-            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_sticky_laser_piston_head",
+            "isOpaque": false
         },
 
         "type=interactingBody,direction=NegZ": {
@@ -451,7 +476,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_body",
+            "isOpaque": false
         },
         "type=interactingBody,direction=PosX": {
             "dropParams": {
@@ -461,7 +487,8 @@
             "rotXZ": 90,
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_body",
+            "isOpaque": false
         },
         "type=interactingBody,direction=PosZ": {
             "dropParams": {
@@ -471,7 +498,8 @@
             "rotXZ": 180,
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_body",
+            "isOpaque": false
         },
         "type=interactingBody,direction=NegX": {
             "dropParams": {
@@ -481,7 +509,8 @@
             "rotXZ": 270,
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_body",
+            "isOpaque": false
         },
         "type=interactingBody,direction=PosY": {
             "dropParams": {
@@ -490,7 +519,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_up_body.json",
-            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_body",
+            "isOpaque": false
         },
         "type=interactingBody,direction=NegY": {
             "dropParams": {
@@ -499,7 +529,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_down_body.json",
-            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_body",
+            "isOpaque": false
         },
 
         "type=stickyInteractingBody,direction=NegZ": {
@@ -508,7 +539,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_body",
+            "isOpaque": false
         },
         "type=stickyInteractingBody,direction=PosX": {
             "dropParams": {
@@ -518,7 +550,8 @@
             "rotXZ": 90,
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_body",
+            "isOpaque": false
         },
         "type=stickyInteractingBody,direction=PosZ": {
             "dropParams": {
@@ -528,7 +561,8 @@
             "rotXZ": 180,
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_body",
+            "isOpaque": false
         },
         "type=stickyInteractingBody,direction=NegX": {
             "dropParams": {
@@ -538,7 +572,8 @@
             "rotXZ": 270,
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_body.json",
-            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_body",
+            "isOpaque": false
         },
         "type=stickyInteractingBody,direction=PosY": {
             "dropParams": {
@@ -547,7 +582,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_up_body.json",
-            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_body",
+            "isOpaque": false
         },
         "type=stickyInteractingBody,direction=NegY": {
             "dropParams": {
@@ -556,7 +592,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_down_body.json",
-            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_body"
+            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_body",
+            "isOpaque": false
         },
 
         "type=interactingHead,direction=NegZ": {
@@ -565,7 +602,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_head",
+            "isOpaque": false
         },
         "type=interactingHead,direction=PosX": {
             "dropParams": {
@@ -575,7 +613,8 @@
             "rotXZ": 90,
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_head",
+            "isOpaque": false
         },
         "type=interactingHead,direction=PosZ": {
             "dropParams": {
@@ -585,7 +624,8 @@
             "rotXZ": 180,
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_head",
+            "isOpaque": false
         },
         "type=interactingHead,direction=NegX": {
             "dropParams": {
@@ -595,7 +635,8 @@
             "rotXZ": 270,
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_head",
+            "isOpaque": false
         },
         "type=interactingHead,direction=PosY": {
             "dropParams": {
@@ -604,7 +645,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_up_head.json",
-            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_head",
+            "isOpaque": false
         },
         "type=interactingHead,direction=NegY": {
             "dropParams": {
@@ -613,7 +655,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_down_head.json",
-            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_interacting_laser_piston_head",
+            "isOpaque": false
         },
 
         "type=stickyInteractingHead,direction=NegZ": {
@@ -622,7 +665,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_head",
+            "isOpaque": false
         },
         "type=stickyInteractingHead,direction=PosX": {
             "dropParams": {
@@ -632,7 +676,8 @@
             "rotXZ": 90,
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_head",
+            "isOpaque": false
         },
         "type=stickyInteractingHead,direction=PosZ": {
             "dropParams": {
@@ -642,7 +687,8 @@
             "rotXZ": 180,
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_head",
+            "isOpaque": false
         },
         "type=stickyInteractingHead,direction=NegX": {
             "dropParams": {
@@ -652,7 +698,8 @@
             "rotXZ": 270,
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_head.json",
-            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_head",
+            "isOpaque": false
         },
         "type=stickyInteractingHead,direction=PosY": {
             "dropParams": {
@@ -661,7 +708,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_up_head.json",
-            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_head",
+            "isOpaque": false
         },
         "type=stickyInteractingHead,direction=NegY": {
             "dropParams": {
@@ -670,7 +718,8 @@
             },
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_down_head.json",
-            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_head"
+            "blockEventsId": "laser_piston:block_events_sticky_interacting_laser_piston_head",
+            "isOpaque": false
         }
     }
 }

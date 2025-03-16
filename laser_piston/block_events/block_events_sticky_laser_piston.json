@@ -291,6 +291,7 @@
                 },
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": -1,
+                    "blockEventId": "laser_piston:block_events_move",
                     "triggerId": "replaceNegZWithSelf"
                 }
             },
@@ -330,6 +331,7 @@
                 },
                 "parameters": {
                     "xOff": 1, "yOff": 0, "zOff": 0,
+                    "blockEventId": "laser_piston:block_events_move",
                     "triggerId": "replacePosXWithSelf"
                 }
             },
@@ -369,6 +371,7 @@
                 },
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": 1,
+                    "blockEventId": "laser_piston:block_events_move",
                     "triggerId": "replacePosZWithSelf"
                 }
             },
@@ -408,6 +411,7 @@
                 },
                 "parameters": {
                     "xOff": -1, "yOff": 0, "zOff": 0,
+                    "blockEventId": "laser_piston:block_events_move",
                     "triggerId": "replaceNegXWithSelf"
                 }
             },
@@ -447,6 +451,7 @@
                 },
                 "parameters": {
                     "xOff": 0, "yOff": 1, "zOff": 0,
+                    "blockEventId": "laser_piston:block_events_move",
                     "triggerId": "replacePosYWithSelf"
                 }
             },
@@ -486,6 +491,7 @@
                 },
                 "parameters": {
                     "xOff": 0, "yOff": -1, "zOff": 0,
+                    "blockEventId": "laser_piston:block_events_move",
                     "triggerId": "replaceNegYWithSelf"
                 }
             },

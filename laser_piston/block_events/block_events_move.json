@@ -1,0 +1,59 @@
+{
+    "stringId": "laser_piston:block_events_move",
+    "triggers": {
+        "replaceNegZWithSelf": [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "blockStateId": "self"
+                }
+            }
+        ],
+        "replacePosXWithSelf": [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            }
+        ],
+        "replacePosZWithSelf": [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "blockStateId": "self"
+                }
+            }
+        ],
+        "replaceNegXWithSelf": [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            }
+        ],
+        "replacePosYWithSelf": [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            }
+        ],
+        "replaceNegYWithSelf": [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            }
+        ]
+    }
+}
