@@ -12,4 +12,4 @@ Sticky pistons pull blocks even when contracting, and interacting pistons intera
 Right now pistons can't push more than 1 block, and they can push/pull parts of blocks such as doors and other pistons thus breaking them.
 
 # Download
-Download the repository as a zip file and extract the ``base`` and ``laser-piston`` folders into the ``mods`` folder of Cosmic Reach.
+Download the repository as a zip file and extract the file into the ``mods`` folder of Cosmic Reach.
