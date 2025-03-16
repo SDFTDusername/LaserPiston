@@ -506,6 +506,36 @@
                     "pitch": [0.9, 1.1],
                     "position": [0, 0, 0]
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "not": {
+                        "srcBlockState": {
+                            "has_tag": "piston_sticky"
+                        }
+                    }
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "not": {
+                        "srcBlockState": {
+                            "has_tag": "piston_sticky"
+                        }
+                    }
+                },
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "pullPosX": [
@@ -563,6 +593,36 @@
                     "volume": 1,
                     "pitch": [0.9, 1.1],
                     "position": [0, 0, 0]
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "not": {
+                        "srcBlockState": {
+                            "has_tag": "piston_sticky"
+                        }
+                    }
+                },
+                "parameters": {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "not": {
+                        "srcBlockState": {
+                            "has_tag": "piston_sticky"
+                        }
+                    }
+                },
+                "parameters":
+                {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -622,6 +682,36 @@
                     "pitch": [0.9, 1.1],
                     "position": [0, 0, 0]
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "not": {
+                        "srcBlockState": {
+                            "has_tag": "piston_sticky"
+                        }
+                    }
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "not": {
+                        "srcBlockState": {
+                            "has_tag": "piston_sticky"
+                        }
+                    }
+                },
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "pullNegX": [
@@ -679,6 +769,36 @@
                     "volume": 1,
                     "pitch": [0.9, 1.1],
                     "position": [0, 0, 0]
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "not": {
+                        "srcBlockState": {
+                            "has_tag": "piston_sticky"
+                        }
+                    }
+                },
+                "parameters": {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "not": {
+                        "srcBlockState": {
+                            "has_tag": "piston_sticky"
+                        }
+                    }
+                },
+                "parameters":
+                {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -738,6 +858,36 @@
                     "pitch": [0.9, 1.1],
                     "position": [0, 0, 0]
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "not": {
+                        "srcBlockState": {
+                            "has_tag": "piston_sticky"
+                        }
+                    }
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "not": {
+                        "srcBlockState": {
+                            "has_tag": "piston_sticky"
+                        }
+                    }
+                },
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "pullNegY": [
@@ -795,6 +945,36 @@
                     "volume": 1,
                     "pitch": [0.9, 1.1],
                     "position": [0, 0, 0]
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "not": {
+                        "srcBlockState": {
+                            "has_tag": "piston_sticky"
+                        }
+                    }
+                },
+                "parameters": {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "not": {
+                        "srcBlockState": {
+                            "has_tag": "piston_sticky"
+                        }
+                    }
+                },
+                "parameters":
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ]

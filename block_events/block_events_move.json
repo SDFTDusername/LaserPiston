@@ -24,6 +24,20 @@
                     "xOff": 0, "yOff": 0, "zOff": -1,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegZWithSelf10": [
@@ -48,6 +62,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": -1,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -74,6 +102,20 @@
                     "xOff": 0, "yOff": 0, "zOff": -1,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegZWithSelf8": [
@@ -98,6 +140,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": -1,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -124,6 +180,20 @@
                     "xOff": 0, "yOff": 0, "zOff": -1,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegZWithSelf6": [
@@ -148,6 +218,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": -1,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -174,6 +258,20 @@
                     "xOff": 0, "yOff": 0, "zOff": -1,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegZWithSelf4": [
@@ -198,6 +296,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": -1,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -224,6 +336,20 @@
                     "xOff": 0, "yOff": 0, "zOff": -1,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegZWithSelf2": [
@@ -248,6 +374,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": -1,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -274,6 +414,20 @@
                     "xOff": 0, "yOff": 0, "zOff": -1,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegZWithSelf": [
@@ -282,6 +436,36 @@
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": -1,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -309,6 +493,20 @@
                     "xOff": 1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosXWithSelf10": [
@@ -333,6 +531,20 @@
                 "parameters": {
                     "xOff": 1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -359,6 +571,20 @@
                     "xOff": 1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosXWithSelf8": [
@@ -383,6 +609,20 @@
                 "parameters": {
                     "xOff": 1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -409,6 +649,20 @@
                     "xOff": 1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosXWithSelf6": [
@@ -433,6 +687,20 @@
                 "parameters": {
                     "xOff": 1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -459,6 +727,20 @@
                     "xOff": 1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosXWithSelf4": [
@@ -483,6 +765,20 @@
                 "parameters": {
                     "xOff": 1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -509,6 +805,20 @@
                     "xOff": 1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosXWithSelf2": [
@@ -533,6 +843,20 @@
                 "parameters": {
                     "xOff": 1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -559,6 +883,20 @@
                     "xOff": 1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosXWithSelf": [
@@ -567,6 +905,36 @@
                 "parameters": {
                     "xOff": 1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -594,6 +962,20 @@
                     "xOff": 0, "yOff": 0, "zOff": 1,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosZWithSelf10": [
@@ -618,6 +1000,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": 1,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -644,6 +1040,20 @@
                     "xOff": 0, "yOff": 0, "zOff": 1,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosZWithSelf8": [
@@ -668,6 +1078,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": 1,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -694,6 +1118,20 @@
                     "xOff": 0, "yOff": 0, "zOff": 1,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosZWithSelf6": [
@@ -718,6 +1156,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": 1,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -744,6 +1196,20 @@
                     "xOff": 0, "yOff": 0, "zOff": 1,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosZWithSelf4": [
@@ -768,6 +1234,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": 1,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -794,6 +1274,20 @@
                     "xOff": 0, "yOff": 0, "zOff": 1,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosZWithSelf2": [
@@ -818,6 +1312,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": 1,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -844,6 +1352,20 @@
                     "xOff": 0, "yOff": 0, "zOff": 1,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosZWithSelf": [
@@ -852,6 +1374,36 @@
                 "parameters": {
                     "xOff": 0, "yOff": 0, "zOff": 1,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -879,6 +1431,20 @@
                     "xOff": -1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegXWithSelf10": [
@@ -903,6 +1469,20 @@
                 "parameters": {
                     "xOff": -1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -929,6 +1509,20 @@
                     "xOff": -1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegXWithSelf8": [
@@ -953,6 +1547,20 @@
                 "parameters": {
                     "xOff": -1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -979,6 +1587,20 @@
                     "xOff": -1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegXWithSelf6": [
@@ -1003,6 +1625,20 @@
                 "parameters": {
                     "xOff": -1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1029,6 +1665,20 @@
                     "xOff": -1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegXWithSelf4": [
@@ -1053,6 +1703,20 @@
                 "parameters": {
                     "xOff": -1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1079,6 +1743,20 @@
                     "xOff": -1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegXWithSelf2": [
@@ -1103,6 +1781,20 @@
                 "parameters": {
                     "xOff": -1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1129,6 +1821,20 @@
                     "xOff": -1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegXWithSelf": [
@@ -1137,6 +1843,36 @@
                 "parameters": {
                     "xOff": -1, "yOff": 0, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1164,6 +1900,20 @@
                     "xOff": 0, "yOff": 1, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosYWithSelf10": [
@@ -1188,6 +1938,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 1, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1214,6 +1978,20 @@
                     "xOff": 0, "yOff": 1, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosYWithSelf8": [
@@ -1238,6 +2016,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 1, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1264,6 +2056,20 @@
                     "xOff": 0, "yOff": 1, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosYWithSelf6": [
@@ -1288,6 +2094,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 1, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1314,6 +2134,20 @@
                     "xOff": 0, "yOff": 1, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosYWithSelf4": [
@@ -1338,6 +2172,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 1, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1364,6 +2212,20 @@
                     "xOff": 0, "yOff": 1, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosYWithSelf2": [
@@ -1388,6 +2250,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": 1, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1414,6 +2290,20 @@
                     "xOff": 0, "yOff": 1, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replacePosYWithSelf": [
@@ -1422,6 +2312,36 @@
                 "parameters": {
                     "xOff": 0, "yOff": 1, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1449,6 +2369,20 @@
                     "xOff": 0, "yOff": -1, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegYWithSelf10": [
@@ -1473,6 +2407,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": -1, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1499,6 +2447,20 @@
                     "xOff": 0, "yOff": -1, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegYWithSelf8": [
@@ -1523,6 +2485,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": -1, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1549,6 +2525,20 @@
                     "xOff": 0, "yOff": -1, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegYWithSelf6": [
@@ -1573,6 +2563,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": -1, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1599,6 +2603,20 @@
                     "xOff": 0, "yOff": -1, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegYWithSelf4": [
@@ -1623,6 +2641,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": -1, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1649,6 +2681,20 @@
                     "xOff": 0, "yOff": -1, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegYWithSelf2": [
@@ -1673,6 +2719,20 @@
                 "parameters": {
                     "xOff": 0, "yOff": -1, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ],
@@ -1699,6 +2759,20 @@
                     "xOff": 0, "yOff": -1, "zOff": 0,
                     "blockStateId": "self"
                 }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
             }
         ],
         "replaceNegYWithSelf": [
@@ -1707,6 +2781,36 @@
                 "parameters": {
                     "xOff": 0, "yOff": -1, "zOff": 0,
                     "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "triggerId": "relayOnBlockUpdate"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "triggerId": "relayUpdateSurroundings",
+                    "tickDelay": 1
                 }
             }
         ]
