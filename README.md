@@ -13,3 +13,8 @@ Right now pistons can't push more than 1 block, and they can push/pull parts of 
 
 # Download
 Download the repository as a zip file and extract the file into the ``mods`` folder of Cosmic Reach.
+
+# Migrate from 1.0.0
+If you are going to open a world made with Laser Piston 1.0.0 in a newer version of the datamod, you should first migrate old block states to new ones.
+
+Use the [Migrate Laser Piston](https://github.com/SDFTDusername/MigrateLaserPiston) datamod to do that, instructions are written in the README file.
