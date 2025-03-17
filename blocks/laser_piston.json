@@ -22,19 +22,19 @@
             "dropParams": {
                 "direction": "NegZ"
             },
-            "rotXZ": 90
+            "rotation": [0, 90, 0]
         },
         "type=normal,part=full,direction=PosZ": {
             "dropParams": {
                 "direction": "NegZ"
             },
-            "rotXZ": 180
+            "rotation": [0, 180, 0]
         },
         "type=normal,part=full,direction=NegX": {
             "dropParams": {
                 "direction": "NegZ"
             },
-            "rotXZ": 270
+            "rotation": [0, 270, 0]
         },
         "type=normal,part=full,direction=PosY": {
             "dropParams": {
@@ -69,7 +69,7 @@
                 "piston_full",
                 "piston_sticky"
             ],
-            "rotXZ": 90,
+            "rotation": [0, 90, 0],
             "dropParams": {
                 "direction": "NegZ"
             },
@@ -84,7 +84,7 @@
                 "piston_full",
                 "piston_sticky"
             ],
-            "rotXZ": 180,
+            "rotation": [0, 180, 0],
             "dropParams": {
                 "direction": "NegZ"
             },
@@ -99,7 +99,7 @@
                 "piston_full",
                 "piston_sticky"
             ],
-            "rotXZ": 270,
+            "rotation": [0, 270, 0],
             "dropParams": {
                 "direction": "NegZ"
             },
@@ -158,7 +158,7 @@
             "dropParams": {
                 "direction": "NegZ"
             },
-            "rotXZ": 90,
+            "rotation": [0, 90, 0],
 			
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston.json",
             "blockEventsId": "laser_piston:block_events_laser_piston",
@@ -173,7 +173,7 @@
             "dropParams": {
                 "direction": "NegZ"
             },
-            "rotXZ": 180,
+            "rotation": [0, 180, 0],
 			
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston.json",
             "blockEventsId": "laser_piston:block_events_laser_piston",
@@ -188,7 +188,7 @@
             "dropParams": {
                 "direction": "NegZ"
             },
-            "rotXZ": 270,
+            "rotation": [0, 270, 0],
 			
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston.json",
             "blockEventsId": "laser_piston:block_events_laser_piston",
@@ -243,7 +243,7 @@
                 "piston_sticky",
                 "piston_interacting"
             ],
-            "rotXZ": 90,
+            "rotation": [0, 90, 0],
             "dropParams": {
                 "direction": "NegZ"
             },
@@ -259,7 +259,7 @@
                 "piston_sticky",
                 "piston_interacting"
             ],
-            "rotXZ": 180,
+            "rotation": [0, 180, 0],
             "dropParams": {
                 "direction": "NegZ"
             },
@@ -275,7 +275,7 @@
                 "piston_sticky",
                 "piston_interacting"
             ],
-            "rotXZ": 270,
+            "rotation": [0, 270, 0],
             "dropParams": {
                 "direction": "NegZ"
             },
@@ -339,7 +339,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 90,
+            "rotation": [0, 90, 0],
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_body.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_body",
@@ -355,7 +355,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 180,
+            "rotation": [0, 180, 0],
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_body.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_body",
@@ -371,7 +371,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 270,
+            "rotation": [0, 270, 0],
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_body.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_body",
@@ -434,7 +434,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 90,
+            "rotation": [0, 90, 0],
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_body.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_body",
@@ -451,7 +451,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 180,
+            "rotation": [0, 180, 0],
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_body.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_body",
@@ -468,7 +468,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 270,
+            "rotation": [0, 270, 0],
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_body.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_body",
@@ -531,7 +531,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 90,
+            "rotation": [0, 90, 0],
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_head.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_head",
@@ -547,7 +547,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 180,
+            "rotation": [0, 180, 0],
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_head.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_head",
@@ -563,7 +563,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 270,
+            "rotation": [0, 270, 0],
 
             "modelName": "laser_piston:models/blocks/model_laser_piston_head.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_head",
@@ -626,7 +626,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 90,
+            "rotation": [0, 90, 0],
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_head.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_head",
@@ -643,7 +643,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 180,
+            "rotation": [0, 180, 0],
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_head.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_head",
@@ -660,7 +660,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 270,
+            "rotation": [0, 270, 0],
 
             "modelName": "laser_piston:models/blocks/model_sticky_laser_piston_head.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_head",
@@ -725,7 +725,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 90,
+            "rotation": [0, 90, 0],
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_body.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_body",
@@ -742,7 +742,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 180,
+            "rotation": [0, 180, 0],
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_body.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_body",
@@ -759,7 +759,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 270,
+            "rotation": [0, 270, 0],
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_body.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_body",
@@ -826,7 +826,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 90,
+            "rotation": [0, 90, 0],
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_body.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_body",
@@ -844,7 +844,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 180,
+            "rotation": [0, 180, 0],
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_body.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_body",
@@ -862,7 +862,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 270,
+            "rotation": [0, 270, 0],
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_body.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_body",
@@ -929,7 +929,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 90,
+            "rotation": [0, 90, 0],
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_head.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_head",
@@ -946,7 +946,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 180,
+            "rotation": [0, 180, 0],
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_head.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_head",
@@ -963,7 +963,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 270,
+            "rotation": [0, 270, 0],
 
             "modelName": "laser_piston:models/blocks/model_interacting_laser_piston_head.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_head",
@@ -1030,7 +1030,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 90,
+            "rotation": [0, 90, 0],
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_head.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_head",
@@ -1048,7 +1048,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 180,
+            "rotation": [0, 180, 0],
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_head.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_head",
@@ -1066,7 +1066,7 @@
                 "part": "full",
                 "direction": "NegZ"
             },
-            "rotXZ": 270,
+            "rotation": [0, 270, 0],
 
             "modelName": "laser_piston:models/blocks/model_sticky_interacting_laser_piston_head.json",
             "blockEventsId": "laser_piston:block_events_laser_piston_head",
