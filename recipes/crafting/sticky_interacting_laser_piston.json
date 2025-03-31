@@ -1,32 +1,16 @@
 {
-    "recipes": [
+    "inputs": [
         {
-            "pattern": [
-                "P*"
-            ],
-            "inputs": {
-                "*": "base:laser_emitter[type=single,direction=NegZ]",
-                "P": "laser_piston:laser_piston[type=sticky,part=full,direction=NegZ]"
-            },
-            "output": {
-                "item": "laser_piston:laser_piston[type=stickyInteracting,part=full,direction=NegZ]",
-                "amount": 1
-            }
+            "item": "laser_piston:laser_piston[type=interacting,part=full,direction=NegZ]",
+            "amount": 1
         },
         {
-            "pattern": [
-                " *",
-                "P*",
-                " *"
-            ],
-            "inputs": {
-                "*": "base:latex",
-                "P": "laser_piston:laser_piston[type=interacting,part=full,direction=NegZ]"
-            },
-            "output": {
-                "item": "laser_piston:laser_piston[type=stickyInteracting,part=full,direction=NegZ]",
-                "amount": 1
-            }
+            "item": "base:latex",
+            "amount": 3
         }
-    ]
+    ],
+    "output": {
+        "item": "laser_piston:laser_piston[type=stickyInteracting,part=full,direction=NegZ]",
+        "amount": 1
+    }
 }

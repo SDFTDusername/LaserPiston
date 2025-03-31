@@ -1,21 +1,24 @@
 {
-    "recipes": [
+    "inputs": [
         {
-            "pattern": [
-                "***",
-                "*GI",
-                "HHH"
-            ],
-            "inputs": {
-                "*": "base:ingot_aluminium",
-                "G": "base:ingot_gold",
-                "I": "base:metal_panel[default]",
-                "H": "base:hazard[default]"
-            },
-            "output": {
-                "item": "laser_piston:laser_piston[type=normal,part=full,direction=NegZ]",
-                "amount": 1
-            }
+            "item": "base:ingot_aluminium",
+            "amount": 4
+        },
+        {
+            "item": "base:hazard",
+            "amount": 1
+        },
+        {
+            "item": "base:ingot_gold",
+            "amount": 1
+        },
+        {
+            "item": "base:metal_panel",
+            "amount": 1
         }
-    ]
+    ],
+    "output": {
+        "item": "laser_piston:laser_piston[type=normal,part=full,direction=NegZ]",
+        "amount": 1
+    }
 }
